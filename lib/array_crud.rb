@@ -3,23 +3,23 @@ def create_an_empty_array
 end
 
 def create_an_array
-  jovial = ["Jupiter","Saturn","Uranus","Neptune"]
+  planets = ["Jupiter","Saturn","Uranus","Neptune"]
 end
 
 def add_element_to_end_of_array(array, element)
-  jovial << "Earth"
+  planets << "Earth"
 end
 
 def add_element_to_start_of_array(array, element)
-  jovial.unshift("Mars")
+  planets.unshift("Mars")
 end
 
 def remove_element_from_end_of_array(array)
-  jovial.pop
+  planets.pop
 end
 
 def remove_element_from_start_of_array(array)
-  jovial
+  planets.shift
 end
 
 def retrieve_element_from_index(array, index_number)
